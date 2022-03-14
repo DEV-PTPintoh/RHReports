@@ -6858,6 +6858,9 @@ a:active {
 }
 
 .post .post-details {
+  background-color: whitesmoke;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, whitesmoke, rgb(223, 223, 223));
   padding-top: 20px;
   padding-bottom: 50px;
 }
